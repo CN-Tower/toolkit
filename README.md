@@ -5,3 +5,5 @@
 -------------------------------------------------------------------------------
 - NDPS(node-dynamic-proxy-server)：https://github.com/CN-Tower/NDPS
 
+-------------------------------------------------------------------------------
+- Web-Magnifier（网页放大镜插件）：https://github.com/CN-Tower/magnifier
