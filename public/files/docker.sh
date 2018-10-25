@@ -1,5 +1,5 @@
 # 1、卸载旧版本(如果安装过旧版本的话)
-sudo sudo yum remove docker  docker-common docker-selinux docker-engine
+sudo yum remove -y docker docker-common docker-selinux docker-engine
 
 # 2、安装需要的软件包， yum-util 提供yum-config-manager功能，另外两个是devicemapper驱动依赖的
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
@@ -9,7 +9,7 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 
 # 4、安装
 yum list docker-ce --showduplicates | sort -r
-sudo yum install docker-ce
+sudo yum install -y docker-ce
 # sudo yum install docker-ce-17.12.0.ce
 
 # 5、启动并加入开机启动
